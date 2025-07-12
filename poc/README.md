@@ -1,6 +1,6 @@
 # POC Templates
 
-This section provides a safe and standardized environment for reproducing vulnerabilities in the Torch Stable Swap contract.
+This section provides a safe and standardized environment for reproducing vulnerabilities in the Torch Stable Swap and Telegram USD contract.
 Using the [TON sandbox](https://github.com/ton-org/sandbox), you can simulate contract behavior locally without any interaction with the mainnet.
 
 ## Important Warnings

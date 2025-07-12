@@ -12,14 +12,14 @@ This Bug Bounty Program covers both Torch Stable Swap and tgUSD to ensure the se
 
 # Resources
 
-## Torch Stable Swap Resources
+**Torch Stable Swap** 
 
 - [Smart contracts](https://github.com/torch-core/torch-dex-contract)
 - [Document](https://doc.torch.finance/dex)
 - [SDK](https://github.com/torch-core/torch-sdk)
 - [Dex Contract Wrapper](https://github.com/torch-core/dex-contract-wrapper)
 
-## tgUSD Resources
+**tgUSD**
 
 - [Smart contracts](https://github.com/torch-core/torch-tgusd-contract)
 - [Document](https://doc.torch.finance/telegram-usd)
@@ -89,13 +89,13 @@ To standardize the reproduction of vulnerabilities and improve review efficiency
 
 > 🔧 Please use our provided PoC Template as much as possible to write the vulnerability reproduction process. This helps us understand and verify your report more quickly and accurately.
 
-If your vulnerability type exceeds the scope supported by the Template, you may use other formats, but **must provide complete and clear reproduction steps**, including commands, operational processes, and necessary explanations, otherwise it may not be accepted.
+If your vulnerability type exceeds the scope supported by the template, you may use other formats, but **must provide complete and clear reproduction steps**, including commands, operational processes, and necessary explanations, otherwise it may not be accepted.
 
 # How to Submit Reports
 
 All vulnerability reports must be sent directly to [contract@torch.finance](mailto:contract@torch.finance).
 
-To standardize the format, please copy and use the template provided in [Report Template](https://github.com/torch-core/bug-bounty/blob/main/report-template.md).
+To standardize the format, please copy and use the provided [Report Template](https://github.com/torch-core/bug-bounty/blob/main/report-template.md) whenever possible..
 
 **Notes**:
 
@@ -120,7 +120,6 @@ We appreciate and thank everyone who submits valid reports that help us improve 
 - Any discovered vulnerabilities must be reported exclusively through [contract@torch.finance](mailto:contract@torch.finance).
 - Follow [Report Template](https://github.com/torch-core/bug-bounty/blob/main/report-template.md) for format, steps, and PoC requirements.
 - You must not be a former or current employee/contributor of ours.
-- Provide detailed but concise reproduction steps, proving reproducibility through TON simulator.
 
 # Contact
 
