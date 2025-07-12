@@ -55,7 +55,7 @@ The POC template includes utility functions to simplify testing in the TON sandb
 
 ### Predefined Configurations
 
-The POC template provides predefined configurations for assets, pool addresses, factory addresses, Telegram USD-related constants, and API URLs. These can be imported and used to standardize references to common elements in your tests, making it easier to interact with Torch Stable Swap and tgUSD protocols.
+The PoC template includes predefined configs for assets, pools and factory addresses, tgUSD-related addresses, and tgUSD API URL—making it easier to write standardized tests for Torch Stable Swap and tgUSD
 
 You can import these from the [config file](https://github.com/torch-core/bug-bounty/blob/main/poc/constants/config.ts) and use them directly in your code.
 
