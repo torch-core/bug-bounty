@@ -44,7 +44,7 @@ describe("PoC Example", () => {
       assetOut: PoolAssets.TON,
       amountIn: amountIn,
       deadline: BigInt(Math.floor(Date.now() / 1000) + 60 * 60),
-      recipient: PoolAddresses.TRI_TON_POOL_ADDRESS,
+      recipient: PoolAddresses.TRI_TON_POOL,
       fulfillPayload: forwardPayload,
     });
     await blockchainSend(blockchain, myWalletAddr, senderArg);

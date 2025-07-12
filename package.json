@@ -16,6 +16,7 @@
     "@torch-finance/dex-contract-wrapper": "^0.2.11",
     "@torch-finance/sdk": "^1.4.1",
     "@torch-finance/simulator": "^0.4.0",
+    "@torch-finance/tgusd-sdk": "^0.0.5",
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.12",
     "decimal.js": "^10.6.0",

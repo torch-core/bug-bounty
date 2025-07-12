@@ -16,7 +16,7 @@ Please provide detailed steps to reproduce the issue, along with a clear explana
 **PoC Proof:**  
 Please provide a proof of concept (PoC) that demonstrates the vulnerability described in the reproduction steps above. The PoC should clearly show how the issue occurs and what the results are.
 
-- If you are using [our PoC template](https://github.com/torch-core/dex-bug-bounty/tree/main/poc), please attach the modified script (e.g., xxx-vuln.spec.ts).
+- If you are using [our PoC template](https://github.com/torch-core/bug-bounty/tree/main/poc), please attach the modified script (e.g., xxx-vuln.spec.ts).
 - If you are not using the template, be sure to include a clear and detailed explanation, such as a custom script, console output, or other supporting materials.
 - To help us understand and verify the issue more efficiently, you may also paste the execution results directly into the report.
 

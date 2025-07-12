@@ -2,19 +2,33 @@
 
 # Introduction
 
-[Torch Stable Swap](https://torch.finance/) enables low-slippage trading for assets such as LSTs and stablecoins. It is built on the Curve Stable Swap formula, written in FunC, and was the winner of the official [Curve competition hosted by TON](https://blog.ton.org/infrastructures-for-stable-assets-with-curve).
+Torch Finance offers innovative DeFi solutions on the TON blockchain. This includes:
+
+- **Torch Stable Swap**: Enables low-slippage trading for assets such as LSTs and stablecoins. It is built on the Curve Stable Swap formula, written in FunC, and was the winner of the official [Curve competition hosted by TON](https://blog.ton.org/infrastructures-for-stable-assets-with-curve).
+
+- **Telegram USD (tgUSD)**: A stablecoin backed by blue-chip assets such as USDT, built for Telegram users. With simple minting and seamless staking, tgUSD makes cross-chain yield accessible in a few taps.
+
+This Bug Bounty Program covers both Torch Stable Swap and tgUSD to ensure the security and reliability of our protocols.
 
 # Resources
+
+## Torch Stable Swap Resources
 
 - [Smart contracts](https://github.com/torch-core/torch-dex-contract)
 - [Document](https://doc.torch.finance/dex)
 - [SDK](https://github.com/torch-core/torch-sdk)
 - [Dex Contract Wrapper](https://github.com/torch-core/dex-contract-wrapper)
-- [Poc Template](https://github.com/torch-core/dex-bug-bounty/tree/main/poc)
+
+## tgUSD Resources
+
+- [Smart contracts](https://github.com/torch-core/torch-tgusd-contract)
+- [Document](https://doc.torch.finance/telegram-usd)
+- [SDK](https://github.com/torch-core/tgusd-sdk)
 
 # Scope
 
-All code in the [contracts folder](https://github.com/torch-core/torch-dex-contract/tree/main/contracts) is in scope, except for imports (stdlib.fc) and code in the mock folder.
+- Stable Swap: all code under the contracts folder in the [DEX repo](https://github.com/torch-core/torch-dex-contract/tree/main/contracts) (excluding mock/ and external imports such as stdlib.fc)
+- Telegram USD: all code under the contracts folder in the [Telegram USD repo](https://github.com/torch-core/torch-tgusd-contract/tree/main/contracts)
 
 # Reward
 
@@ -35,7 +49,7 @@ We also welcome submissions of non-critical issues, which may not be eligible fo
 
 ## In Scope Vulnerabilities: Smart Contracts
 
-We are looking for issues that cause abnormal behavior in smart contracts, which may trigger unexpected or erroneous functions.
+We are looking for issues that cause abnormal behavior in smart contracts for both Torch Stable Swap and tgUSD, which may trigger unexpected or erroneous functions.
 
 The following are examples of Critical level vulnerabilities (but not limited to these):
 
@@ -71,7 +85,7 @@ The following vulnerabilities are excluded from rewards:
 
 # PoC Submission Guidelines
 
-To standardize the reproduction of vulnerabilities and improve review efficiency, we provide a [PoC Template](https://github.com/torch-core/dex-bug-bounty/tree/main/poc) located in the `poc` folder.
+To standardize the reproduction of vulnerabilities and improve review efficiency, we provide a [PoC Template](https://github.com/torch-core/bug-bounty/tree/main/poc) located in the `poc` folder.
 
 > 🔧 Please use our provided PoC Template as much as possible to write the vulnerability reproduction process. This helps us understand and verify your report more quickly and accurately.
 
@@ -81,11 +95,12 @@ If your vulnerability type exceeds the scope supported by the Template, you may 
 
 All vulnerability reports must be sent directly to [contract@torch.finance](mailto:contract@torch.finance).
 
-To standardize the format, please copy and use the template provided in [Report Template](https://github.com/torch-core/dex-bug-bounty/blob/main/report-template.md).
+To standardize the format, please copy and use the template provided in [Report Template](https://github.com/torch-core/bug-bounty/blob/main/report-template.md).
 
 **Notes**:
 
 - Submissions must strictly follow the required format
+- Submit one vulnerability per email
 - Reports must be written in English.
 - Please provide detailed and concise reproduction steps.
 - The team will review the report within 2-3 days of receipt and reply with the results (e.g., confirmation, rejection, or request for supplements).
@@ -103,7 +118,7 @@ We appreciate and thank everyone who submits valid reports that help us improve 
 - You must be the first reporter of the vulnerability.
 - The vulnerability must be qualified (Critical only).
 - Any discovered vulnerabilities must be reported exclusively through [contract@torch.finance](mailto:contract@torch.finance).
-- Follow [Report Template](https://github.com/torch-core/dex-bug-bounty/blob/main/report-template.md) for format, steps, and PoC requirements.
+- Follow [Report Template](https://github.com/torch-core/bug-bounty/blob/main/report-template.md) for format, steps, and PoC requirements.
 - You must not be a former or current employee/contributor of ours.
 - Provide detailed but concise reproduction steps, proving reproducibility through TON simulator.
 
@@ -118,6 +133,7 @@ We will reply to your inquiry as soon as possible.
 # Community Resources
 
 - [Website](https://torch.finance/)
-- [Mini App](https://t.me/torch_finance_bot)
+- [Stable Swap Mini App](https://t.me/torch_finance_bot)
+- [Telegram USD Mini App](https://t.me/tgusd_official_bot)
 - [Telegram](https://t.me/torch_ton)
 - [X](https://x.com/home)

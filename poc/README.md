@@ -15,8 +15,8 @@ Follow these steps to reproduce a vulnerability:
 1. **Clone the Repository Locally**:
 
    ```
-   git clone https://github.com/torch-core/dex-bug-bounty.git
-   cd dex-bug-bounty
+   git clone https://github.com/torch-core/bug-bounty.git
+   cd bug-bounty
    ```
 
    (Do not fork — to prevent exposing the reproduction steps and creating a security risk.)
@@ -45,13 +45,19 @@ Follow these steps to reproduce a vulnerability:
    Verify the output (e.g., balance changes) confirms the vulnerability.
 
 5. **Submit Your Report**:  
-   Attach the modified `xxx-vuln.spec.ts` file, along with test output logs/screenshots, to your email report (as per the Bug Bounty README's ["How to Submit Reports" section](https://github.com/torch-core/dex-bug-bounty/tree/main?tab=readme-ov-file#how-to-submit-reports)). Do not push changes or share publicly.
+   Attach the modified `xxx-vuln.spec.ts` file, along with test output logs/screenshots, to your email report (as per the Bug Bounty README's ["How to Submit Reports" section](https://github.com/torch-core/bug-bounty/tree/main?tab=readme-ov-file#how-to-submit-reports)). Do not push changes or share publicly.
 
    > **Note**: This is just an example template. If the vulnerability cannot be reproduced using this method, please use any other clear format that allows us to quickly and easily understand the issue (e.g., a detailed script, step-by-step commands, or alternative simulation tools).
 
 ## Available Features
 
 The POC template includes utility functions to simplify testing in the TON sandbox environment. Here's a brief overview:
+
+### Predefined Configurations
+
+The POC template provides predefined configurations for assets, pool addresses, factory addresses, Telegram USD-related constants, and API URLs. These can be imported and used to standardize references to common elements in your tests, making it easier to interact with Torch Stable Swap and tgUSD protocols.
+
+You can import these from the [config file](https://github.com/torch-core/bug-bounty/blob/main/poc/constants/config.ts) and use them directly in your code.
 
 ### Initializing the Blockchain
 
@@ -85,10 +91,16 @@ The POC template includes utility functions to simplify testing in the TON sandb
   console.log(`stTON Balance: ${formatUnits(balances[1])} stTON`);
   ```
 
-### Using Torch SDK
+### Using Torch Stable Swap SDK
 
 - @torch-finance/sdk: This SDK is integrated for interacting with Torch Finance features, such as generating swap payloads.
 - For detailed tutorials refer to the [DEX SDK Guide](https://doc.torch.finance/dex/developer-guide/dex-sdk-guide).
+
+### Using Telegram USD SDK
+
+- @torch-finance/tgusd-sdk: This SDK is integrated for interacting with Telegram USD features, such as generating mint payloads.
+- For detailed tutorials refer to the [tgUSD SDK Guide](https://doc.torch.finance/telegram-usd/technical/telegram-usd-sdk).
+
 
 ### Sending Simulated Transactions
 
@@ -112,4 +124,4 @@ The POC template includes utility functions to simplify testing in the TON sandb
 
 - Ensure your reproduction proves a critical impact (e.g., fund drain or unauthorized access).
 - In addition to the POC, provide a detailed and clear explanation in your submission email, including the vulnerability description, steps, and impact analysis.
-- For more details on the Bug Bounty program, refer to the [here](https://github.com/torch-core/dex-bug-bounty?tab=readme-ov-file#torch-finance-bug-bounty-program).
+- For more details on the Bug Bounty program, refer to the [here](https://github.com/torch-core/bug-bounty?tab=readme-ov-file#torch-finance-bug-bounty-program).
