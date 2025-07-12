@@ -81,7 +81,7 @@ If your vulnerability type exceeds the scope supported by the Template, you may 
 
 All vulnerability reports must be sent directly to [contract@torch.finance](mailto:contract@torch.finance).
 
-To standardize the format, please copy and use the template provided in [report-template.md](https://github.com/torch-core/dex-bug-bounty/blob/main/report-template.md).
+To standardize the format, please copy and use the template provided in [Report Template](https://github.com/torch-core/dex-bug-bounty/blob/main/report-template.md).
 
 **Notes**:
 
@@ -103,7 +103,7 @@ We appreciate and thank everyone who submits valid reports that help us improve 
 - You must be the first reporter of the vulnerability.
 - The vulnerability must be qualified (Critical only).
 - Any discovered vulnerabilities must be reported exclusively through [contract@torch.finance](mailto:contract@torch.finance).
-- Follow [report-template.md](https://github.com/torch-core/dex-bug-bounty/blob/main/report-template.md) for format, steps, and PoC requirements.
+- Follow [Report Template](https://github.com/torch-core/dex-bug-bounty/blob/main/report-template.md) for format, steps, and PoC requirements.
 - You must not be a former or current employee/contributor of ours.
 - Provide detailed but concise reproduction steps, proving reproducibility through TON simulator.
 
