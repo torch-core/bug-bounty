@@ -6,7 +6,7 @@ Torch Finance offers innovative DeFi solutions on the TON blockchain. This inclu
 
 - **Torch Stable Swap**: Enables low-slippage trading for assets such as LSTs and stablecoins. It is built on the Curve Stable Swap formula, written in FunC, and was the winner of the official [Curve competition hosted by TON](https://blog.ton.org/infrastructures-for-stable-assets-with-curve).
 
-- **Telegram USD (tgUSD)**: A stablecoin backed by blue-chip assets such as USDT, built for Telegram users. With simple minting and seamless staking, tgUSD makes cross-chain yield accessible in a few taps.
+- **Telegram USD (tgUSD)**: A stablecoin backed by blue-chip assets such as USDT, built for Telegram users. Written in Tolk, it supports seamless minting and staking to unlock cross-chain yield in a few taps.
 
 This Bug Bounty Program covers both Torch Stable Swap and tgUSD to ensure the security and reliability of our protocols.
 
