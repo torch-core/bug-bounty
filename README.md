@@ -21,7 +21,7 @@ All code in the [contracts folder](https://github.com/torch-core/torch-dex-contr
 - Rewards are only provided for Critical vulnerabilities, with a maximum reward value of up to $20,000 USD.
 - The final reward amount is determined based on the impact and exploitability of the vulnerability
 - No KYC required.
-- Payments are made via TON chain wallet addresses.
+- Rewards will be sent to your TON wallet.
 
 Reward Levels:
 
