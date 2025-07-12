@@ -114,3 +114,10 @@ If you have any questions about this Bug Bounty program, please contact us throu
 📧 Email: contract@torch.finance
 
 We will reply to your inquiry as soon as possible.
+
+# Community Resources
+
+- [Website](https://torch.finance/)
+- [Mini App](https://t.me/torch_finance_bot)
+- [Telegram](https://t.me/torch_ton)
+- [X](https://x.com/home)
