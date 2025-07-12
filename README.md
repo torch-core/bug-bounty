@@ -114,4 +114,3 @@ If you have any questions about this Bug Bounty program, please contact us throu
 📧 Email: contract@torch.finance
 
 We will reply to your inquiry as soon as possible.
-# dex-bug-bounty
