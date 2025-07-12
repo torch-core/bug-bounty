@@ -1,0 +1,13 @@
+export const OP_SIZE = 32;
+export const QUERY_ID_SIZE = 64;
+export const PROOF_SIZE = 256;
+export const TIME_SIZE = 32;
+export const BUFFER_SIGNER_KEY_SIZE = 32;
+export const SIGNER_KEY_SIZE = 256;
+export const SIGNATURE_SIZE = 64;
+export const A_SIZE = 20;
+export const NEXT_TYPE_SIZE = 2;
+export const POOL_TYPE_SIZE = 4;
+export const ASSET_TYPE_SIZE = 4;
+export const LP_INDEX_SIZE = 4;
+export const CONTRACT_TYPE_SIZE = 5;

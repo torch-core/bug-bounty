@@ -1,0 +1,5 @@
+node_modules
+
+# Ignore all files in reproduction directory except example.spec.ts
+poc/reproduction/*
+!poc/reproduction/example.spec.ts
