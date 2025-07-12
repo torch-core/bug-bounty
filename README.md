@@ -27,7 +27,7 @@ This Bug Bounty Program covers both Torch Stable Swap and tgUSD to ensure the se
 
 # Scope
 
-- Stable Swap: all code under the contracts folder in the [DEX repo](https://github.com/torch-core/torch-dex-contract/tree/main/contracts) (excluding mock/ and external imports such as stdlib.fc)
+- Stable Swap: all code under the contracts folder in the [DEX repo](https://github.com/torch-core/torch-dex-contract/tree/main/contracts) (excluding mock and imports folders)
 - Telegram USD: all code under the contracts folder in the [Telegram USD repo](https://github.com/torch-core/torch-tgusd-contract/tree/main/contracts)
 
 # Reward
