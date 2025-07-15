@@ -141,5 +141,5 @@ We will reply to your inquiry as soon as possible.
 
 ## Community & Social
 - [Telegram](https://t.me/torch_ton)
-- [X (Twitter)](https://x.com/home)
+- [X (Twitter)](https://x.com/TorchTon)
 
