@@ -131,8 +131,15 @@ We will reply to your inquiry as soon as possible.
 
 # Community Resources
 
+## Torch Stable Swap
 - [Website](https://torch.finance/)
-- [Stable Swap Mini App](https://t.me/torch_finance_bot)
-- [Telegram USD Mini App](https://t.me/tgusd_official_bot)
+- [Mini App](https://t.me/torch_finance_bot)
+
+## Telegram USD (tgUSD)
+- [Website](https://app.tgusd.io/)
+- [Mini App](https://t.me/tgusd_official_bot)
+
+## Community & Social
 - [Telegram](https://t.me/torch_ton)
-- [X](https://x.com/home)
+- [X (Twitter)](https://x.com/home)
+

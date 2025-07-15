@@ -4,3 +4,5 @@ node_modules
 # ! DO NOT REMOVE THIS.
 poc/reproduction/*
 !poc/reproduction/example.spec.ts
+
+.vscode
