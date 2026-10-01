@@ -1,5 +1,8 @@
 # Torch Finance Bug Bounty Program
 
+> [!WARNING]
+> **Reward payouts are currently paused.** We are not issuing bounty rewards at this time. You may still report vulnerabilities to [contract@torch.finance](mailto:contract@torch.finance), but no reward is guaranteed while payouts are paused. This notice will be updated when rewards resume.
+
 # Introduction
 
 Torch Finance offers innovative DeFi solutions on the TON blockchain. This includes:
@@ -31,6 +34,8 @@ This Bug Bounty Program covers both Torch Stable Swap and tgUSD to ensure the se
 - Telegram USD: all code under the contracts folder in the [Telegram USD repo](https://github.com/torch-core/torch-tgusd-contract/tree/main/contracts)
 
 # Reward
+
+> ⚠️ **Note:** Reward payouts are currently paused. The terms below will apply once rewards resume.
 
 - Rewards are only provided for Critical vulnerabilities, with a maximum reward value of up to $20,000 USD.
 - The final reward amount is determined based on the impact and exploitability of the vulnerability
